@@ -1,7 +1,7 @@
 define [
   'underscore',
   'backbone',
-  'chaplin/lib/subscriber'
+  '../lib/subscriber'
 ], (_, Backbone, Subscriber) ->
   'use strict'
 

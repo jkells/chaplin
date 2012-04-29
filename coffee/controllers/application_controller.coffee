@@ -1,8 +1,8 @@
 define [
   'underscore',
   'mediator',
-  'chaplin/lib/utils',
-  'chaplin/lib/subscriber'
+  '../lib/utils',
+  '../lib/subscriber'
 ], (_, mediator, utils, Subscriber) ->
   'use strict'
 

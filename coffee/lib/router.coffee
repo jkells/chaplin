@@ -2,8 +2,8 @@ define [
   'underscore',
   'backbone',
   'mediator',
-  'chaplin/lib/subscriber',
-  'chaplin/lib/route'
+  './subscriber',
+  './route'
 ], (_, Backbone, mediator, Subscriber, Route) ->
   'use strict'
 
@@ -17,7 +17,7 @@ define [
 
     constructor: (@options = {}) ->
       ###console.debug 'Router#constructor'###
-      
+
       @subscribeEvent '!router:route', @routeHandler
       @subscribeEvent '!router:changeURL', @changeURLHandler
 

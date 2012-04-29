@@ -1,8 +1,8 @@
 define [
   'mediator',
-  'chaplin/controllers/application_controller',
-  'chaplin/views/application_view',
-  'chaplin/lib/router'
+  './controllers/application_controller',
+  './views/application_view',
+  './lib/router'
 ], (mediator, ApplicationController, ApplicationView, Router) ->
   'use strict'
 

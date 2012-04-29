@@ -1,9 +1,9 @@
 define [
   'underscore',
   'backbone',
-  'chaplin/lib/subscriber',
-  'chaplin/lib/sync_machine'
-  'chaplin/models/model'
+  '../lib/subscriber',
+  '../lib/sync_machine'
+  './model'
 ], (_, Backbone, Subscriber, SyncMachine, Model) ->
   'use strict'
 

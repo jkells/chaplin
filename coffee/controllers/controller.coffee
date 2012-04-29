@@ -1,6 +1,6 @@
 define [
   'underscore',
-  'chaplin/lib/subscriber'
+  '../lib/subscriber'
 ], (_, Subscriber) ->
   'use strict'
 
